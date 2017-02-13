@@ -1,0 +1,162 @@
+body {
+  background: url('../img/main_bg.png');
+  font-family: 'Agora Bold', sans-serif;
+  padding-bottom: 110px;
+}
+
+header {
+  background: url('../img/header_bg.png') center bottom no-repeat;
+  text-align: center;
+  min-height: 130px;
+  padding-top: 7px;
+}
+
+.header_logo_wrap {
+  display: inline-block;
+
+}
+
+.header_logo {
+  max-width: 206px
+}
+
+.head h1 {
+  color: #0961a6;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+
+}
+ .head {
+   margin: 18px 0;
+ }
+
+.ramka {
+  margin: 0 20px;
+}
+
+.ramka__wraper {
+  max-width: 702px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 18px;
+  text-align: center;
+  min-height: 206px;
+  background: url('../img/ramka.png') center no-repeat;
+  background-size: 100% 100%
+ }
+
+.ramka__title {
+  font-size: 31px;
+  color: #0962a7;
+  text-transform: uppercase;
+}
+
+.ramka__accent {
+  font-size: 35px;
+  color: #ff6000;
+  font-family: 'Agora Black', sans-serif;
+  text-transform: uppercase;
+  margin: 22px 0 24px;
+}
+
+.ramka__tel {
+  font-size: 60px;
+  color: #0962a7;
+  font-family: 'Agora Bold Italic', sans-serif;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
+}
+
+.ramka__tel:hover {
+  color: #2489d8;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons a {
+  display: inline-block;
+  max-width: 438px;
+  width: 100%;
+  height: 95px;
+  background: url('../img/button-sprite.png') center top no-repeat;
+  line-height: 86px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 26px;
+  background-size: 90% 285px;
+}
+
+.buttons a:hover {
+  background-position-y: -95px;
+}
+
+.buttons a:active,
+.buttons a:focus {
+  background-position-y: -190px;
+}
+
+.services {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hex-item {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin: 0 10px 20px;
+  min-width: 214px;
+  text-decoration: none;
+}
+
+.hex-item:hover svg {
+  transform: scale(1.05);
+}
+
+.hex-item svg,
+.hex-item span {
+  display: block;
+  margin: 0 auto;
+  transform: scale(1);
+  will-change: transform;
+  transition: transform .2s ease
+}
+
+.hex-item span {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .header_logo {
+    max-width: 140px
+  }
+  .buttons a {
+    font-size: 20px;
+  }
+  header {
+    min-height: 100px;
+  }
+  .head h1 {
+    font-size: 25px;
+  }
+
+  .ramka__accent {
+    font-size: 25px;
+  }
+
+  .ramka__tel {
+    font-size: 35px;
+  }
+  .ramka__wraper {
+    background: url('../img/ramka_mobile.png') center no-repeat;
+    background-size: 100% 100%
+   }
+}

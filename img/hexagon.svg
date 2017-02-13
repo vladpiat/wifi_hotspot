@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="177" height="154" viewBox="0 0 177 154">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #ff6000;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+      }
+    </style>
+    <pattern id="img1" patternUnits="userSpaceOnUse" width="177" height="154">
+      <image xlink:href="logo.png" x="0" y="0" width="177" height="154" />
+    </pattern>
+  </defs>
+  <path d="M131.466,151.500 L45.455,151.454 L2.489,76.954 L45.534,2.500 L131.545,2.545 L174.511,77.045 L131.466,151.500 Z" class="cls-1" fill="url(#img1)"/>
+</svg>
